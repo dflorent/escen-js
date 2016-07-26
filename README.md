@@ -6,5 +6,6 @@ Au début de la session...
 -------------------------
 
 ```
+npm i -g copycast
 copycast
 ```
