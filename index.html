@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>JavaScript  &ndash; ESCEN Lyon</title>
+
+        <meta name="description" content="JavaScript &ndash; ESCEN Lyon">
+        <meta name="author" content="Florent Desjardins">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/beige.css">
+        <link rel="stylesheet" href="lib/css/tomorrow.css">
+        <style>
+        .blue {
+            color: #1b91ff;
+        }
+
+        .gray {
+            color: #555;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>JavaScript</h1>
+                    <h3>ESCEN Lyon - Bachelor 2</h3>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Compréhension générale du fonctionnement d'Internet</h2>
+                    </section>
+                    <section>
+                        <h3>Serveur / Client</h3>
+                        <img src="http://fakeimg.pl/640x480/">
+                    </section>
+                    <section>
+                        <h3>Le protocole HTTP</h3>
+                    </section>
+                    <section>
+                        <h3>Requêtes GET & POST</h3>
+                        <pre><code data-trim>// Demander une ressource
+curl -X GET http://perdu.com
+
+// Transmettre des données
+curl -X POST -d "foo=bar" http://perdu.com</code></pre>
+                    </section>
+                    <section>
+                        <h3>En-têtes HTTP</h3>
+                        <pre><code data-trim>$ curl -X GET -i http://perdu.com
+
+HTTP/1.1 200 OK
+Date: Tue, 26 Jul 2016 14:13:17 GMT
+Server: Apache
+Last-Modified: Thu, 02 Jun 2016 06:01:08 GMT
+ETag: "cc-5344555136fe9"
+Accept-Ranges: bytes
+Content-Length: 204
+Vary: Accept-Encoding
+Content-Type: text/htm</code></pre>
+                    </section>
+                    <section>
+                        <h3>Codes de retour</h3>
+                        <h4><span class="blue">200</span> = succès de la requête</h4>
+                        <h4><span class="blue">301</span> <span class="gray">&</span> <span class="blue">302</span> = redirections</h4>
+                        <h4><span class="blue">401</span> = utilisateur non authentifié</h4>
+                        <h4><span class="blue">403</span> = accès refusé</h4>
+                        <h4><span class="blue">404</span> = page non trouvée</h4>
+                        <h4><span class="blue">500</span> <span class="gray">&</span> <span class="blue">503</span> = erreur serveur</h4>
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Métiers de l'Internet, complémentarités et interdépendances</h2>
+                </section>
+                <section>
+                    <h2>Les langages de programmations web et leurs utilisations</h2>
+                </section>
+                <section>
+                    <h2>Le langage JavaScript</h2>
+                </section>
+                <section>
+                    <h2>Manipulation du DOM</h2>
+                </section>
+                <section>
+                    <h2>Gestion d'événements</h2>
+                </section>
+                <section>
+                    <h2>APIs JavaScript</h2>
+                </section>
+            </div>
+        </div>
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                progress: true,
+                history: true,
+                center: true,
+                touch: true,
+                transition: 'convex',
+                dependencies: [
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+                ]
+            });
+        </script>
+    </body>
+</html>
