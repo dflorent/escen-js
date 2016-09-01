@@ -1,6 +1,16 @@
 JavaScript — ESCEN - Bachelor 2
 ===============================
 
+Au début de la session...
+-------------------------
+
+```
+echo 6.0.0 > .node-version
+npm i -g copycast http-server
+http-server
+copycast
+```
+
 Notions couvertes par cet exercice
 ----------------------------------
 
