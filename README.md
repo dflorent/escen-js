@@ -57,4 +57,4 @@ Ressources
 
 10. Réaliser au choix l'un des exemples d'affichage présentés ci-dessous :
 
-![examples](https://raw.githubusercontent.com/dflorent/escen-js-b2/exercice-01/img/examples.jpg)
+![examples](https://raw.githubusercontent.com/dflorent/escen-js-b2/cookie-consent/img/examples.jpg)
