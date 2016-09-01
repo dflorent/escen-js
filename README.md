@@ -36,4 +36,6 @@ Ressources
 Énoncé
 ------
 
-Réécrire le fichier *cookieconsent.js* de l'exercice précédent à l'aide de jQuery
+1. Intégrer la librairie *jQuery* à l'aide de l'élément HTML script
+
+2. Réécrire le fichier *cookieconsent.js* de l'exercice précédent à l'aide de jQuery
