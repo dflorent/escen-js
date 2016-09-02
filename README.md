@@ -9,28 +9,23 @@ Plan de cours
     - Codes de retour
     - En-têtes HTTP
   - Serveur vs Client
-    - Serveur web
-    - Navigateurs web
-    - Pages web
-  - Outillage
-    - Ordinateur
-    - Navigateurs web
-    - Éditeurs de code
-    - Console web & débogage
-    - Documentations & spécifications en-ligne
 2. Métiers de l'Internet, complémentarités et interdépendances
 3. Les langages de programmations web et leurs utilisations
 4. Le langage JavaScript
   - Définition
   - JavaScript côté client vs JavaScript côté serveur
-  - Syntaxe du langage
-  - Commentaires
   - Types primitifs
     - Nombres
     - Chaînes de caractères
     - Booléens
     - Null
     - Undefined
+  - Opérateurs arithmétiques
+    - Addition
+    - Soustraction
+    - Multiplication
+    - Division
+    - Modulo
   - Opérateurs de comparaison
     - Supérieur
     - Inférieur
@@ -38,21 +33,18 @@ Plan de cours
     - Inférieur ou égal
     - Égal à
     - Non égal à
+  - Variables : déclaration et utilisation
+  - Boucles
+    - While
+    - For
   - Structures conditionnelles
     - if...else
     - switch...case
-  - Opérateurs arithmétiques
-    - Addition
-    - Soustraction
-    - Multiplication
-    - Division
-    - Modulo
-  - Variables : déclaration et utilisation
   - Fonctions : définition et appel
   - Notion de "scope"
   - Structures de données : objets et tableaux
-  - Boucles
   - Asynchrone
+  - Commentaires
 5. Manipulation DOM
 6. Gestion d'événements
 7. APIs JavaScript
