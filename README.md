@@ -1,4 +1,4 @@
-# JavaScript - ESCEN Lyon - Bachelor 2
+# JavaScript - ESCEN Lyon
 
 Plan de cours
 -------------
