@@ -1,5 +1,5 @@
-JavaScript — ESCEN - Bachelor 2
-===============================
+JavaScript — ESCEN
+==================
 
 Au début de la session...
 -------------------------
