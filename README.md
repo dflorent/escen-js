@@ -12,7 +12,7 @@ Plan de cours
 2. Métiers de l'Internet, complémentarités et interdépendances
 3. Les langages de programmations web et leurs utilisations
 4. Le langage JavaScript
-  - Définition
+  - Définition et pourquoi l'apprendre ?
   - JavaScript côté client vs JavaScript côté serveur
   - Types primitifs
     - Nombres
@@ -34,15 +34,15 @@ Plan de cours
     - Égal à
     - Non égal à
   - Variables : déclaration et utilisation
-  - Boucles
-    - While
-    - For
   - Structures conditionnelles
     - if...else
     - switch...case
+  - Structures de données : objets et tableaux
+  - Boucles
+    - While
+    - For
   - Fonctions : définition et appel
   - Notion de "scope"
-  - Structures de données : objets et tableaux
   - Asynchrone
   - Commentaires
 5. Manipulation DOM
