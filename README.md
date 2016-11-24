@@ -6,8 +6,8 @@ Au début de la session...
 
 ```
 echo 6.0.0 > .node-version
-npm i -g copycast http-server
-http-server
+npm i -g copycast browser-sync
+browser-sync start --server --files 'css/*.css, js/*.js, *.html' --no-open
 copycast
 ```
 
