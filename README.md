@@ -9,7 +9,7 @@ Plan de cours
   - Client-serveur
     - Quelques exemples de clients
   - Requêtes et réponses HTTP
-    - Status line
+    - Start line
       - Verb
       - Path
       - Version
