@@ -31,3 +31,5 @@ Outils
 - [querySelectorAll](https://developer.mozilla.org/fr/docs/Web/API/document/querySelectorAll)
 - [HTTP](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Documentation JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
+- [Objet Document JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Document)
+- [Objet Window JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Window)
