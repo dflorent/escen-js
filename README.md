@@ -30,4 +30,4 @@ Outils
 - [querySelector](https://developer.mozilla.org/fr/docs/Web/API/Document/querySelector)
 - [querySelectorAll](https://developer.mozilla.org/fr/docs/Web/API/document/querySelectorAll)
 - [HTTP](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [Documentation JavaScript] https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference
+- [Documentation JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference)
