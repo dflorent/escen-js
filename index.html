@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password generator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Password generator</h1>
+    <p><em>Disclaimer : Ceci est un exercice, pour des problèmes de sécurité,
+      ne l'utilisez dans la vraie vie.</em></p>
+    <form>
+      <p>
+        <label for="service-name">Nom du service</label>
+        <input
+          id="service-name"
+          type="text"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          autofocus>
+      </p>
+      <p>
+        <label for="login">Identifiant</label>
+        <input
+          id="login"
+          type="text"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off">
+      </p>
+      <p>
+        <label for="master-password">Mot de passe maître</label>
+        <input
+          id="master-password"
+          type="password"
+          autocomplete="new-password"
+          autocorrect="off"
+          autocapitalize="off">
+      </p>
+      <p>
+        <button type="submit">Générer</button>
+      </p>
+    </form>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
