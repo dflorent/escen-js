@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TP JavaScript : notes d'un étudiant</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>TP JavaScript : notes d'un étudiant</h1>
+    <hr>
+
+    <h2>Objectifs du TP :</h2>
+    <ul>
+      <li>Sauvegarder et afficher le nom d'un étudiant</li>
+      <li>Saisir ses notes</li>
+      <li>Trouver la note de son troisème examen</li>
+      <li>Rechercher si l'étudiant a eu un 12 au cours du semestre</li>
+      <li>Trouver le nombre de notes au dessus de la moyenne</li>
+      <li>Calculer sa moyenne</li>
+    </ul>
+
+    <p>Merci de précéder votre code pour chaque exercice par un commentaire comme dans l'exemple suivant :</p>
+    <pre><code class="language-js">// ex1
+code pour ex1...</code></pre>
+
+    <p>Bon courage !</p>
+    <hr>
+
+    <h3>Ex1</h3>
+    <p>Déclarez deux variables destinées à recevoir une chaîne de caractères
+      intitulées respectivement <br><em>prenom</em> et <em>nom</em>.
+      Remplissez-les avec votre prénom et votre nom.</p>
+    <hr>
+
+    <h3>Ex2</h3>
+    <p>Déclarez une variable nommée <em>nom_complet</em> contenant
+      la concaténation des variables <em>prenom</em> et <em>nom</em>
+      incluant le caractère <em>espace</em> entre les deux.</p>
+    <hr>
+
+    <h3>Ex3</h3>
+    <p>Déclarez une variable <em>notes</em> de type <em>Array</em>
+      contenant les notes suivantes :</p>
+    <table border="1">
+      <tr>
+        <td>5</td>
+        <td>12</td>
+        <td>8</td>
+        <td>20</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <hr>
+
+    <h3>Ex4</h3>
+    <p>Affichez en <em>console</em> la valeur du troisième élément
+      de la variable <em>notes</em> de l'exercice 3 :</p>
+    <hr>
+
+    <h3>Ex5</h3>
+    <p>Parcourez les <em>notes</em> de l'étudiant et recherchez la valeur
+      <em>12</em> dans celles-ci. Vous devez obtenir l'affichage suivant en
+      <em>console</em> :</p>
+    <pre><code class="language-js">12 a été trouvé !
+// ou
+12 n'a pas été trouvé !</code></pre>
+    <hr>
+
+    <h3>Ex6</h3>
+    <p>Comptez le nombre de notes au dessus de la moyenne (>10).
+      Vous devez obtenir l'affichage suivant <br>en <em>console</em> :</p>
+    <pre><code class="language-js">XX notes sont au dessus de la moyenne.</code></pre>
+    <hr>
+
+    <h3>Ex7</h3>
+    <p>Calculez la moyenne de l'étudiant, l'arrondir à 2 chiffres après la
+      virgule avec <em>toFixed()</em> et affichez sa valeur à l'aide d'un <em>console.log</em>.</p>
+    <a target="_blank" href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Number/toFixed">toFixed()</a>
+    <hr>
+
+    <h3>Ex8</h3>
+    <p>Reprenez votre code de l'exercice précédent pour créer une fonction
+      <em>calculer_moyenne</em> prenant en argument les <em>notes</em>
+      de l'étudiant et retournant la moyenne arrondie de l'étudiant.</p>
+    <hr>
+
+    <h3>Ex9</h3>
+    <p>Utilisez un écouteur d'événement pour détecter le chargement
+      du <em>DOM</em>. Une fois le DOM chargé, affichez <em>Le DOM est chargé !</em>
+      dans la <em>console</em>.</p>
+    <hr>
+
+    <h3>Ex10</h3>
+    <p>Une fois le <em>DOM</em> chargé, stockez l'élement <em>bouton</em>
+      correspondant au code suivant :</p>
+    <pre><code class="language-html">&lt;button id="btn-calculer"&gt;Calculer&lt;/button&gt;</code></pre>
+    <p>Utilisez un autre écouteur d'événement pour
+      détecter l'événement <em>click</em> sur ce bouton. Au <em>click</em> sur
+      le bouton, appelez votre fonction <em>calculer_moyenne</em> pour afficher
+      la valeur de la moyenne arrondie dans une <em>alert</em>.</p>
+    <hr>
+
+    <p>Faites une archive <em>.zip</em> de votre projet nommé sous la forme :</p>
+    <pre><code>prenom_nom.zip</code></pre>
+
+    <p>Demandez la clé USB pour déposer votre archive.</p>
+
+    <script src="js/prism.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
