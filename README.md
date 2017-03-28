@@ -59,21 +59,21 @@ possédant les attributs `class="item-flask"` et `id="VALEUR_DE_xy[index].id"`. 
 `<div class="stage">...</div>`. Utilisez la méthode `css()` (http://api.jquery.com/css/) pour placer
 vos potions sur la scène (propriétés `left` et `top`).
 
-Ex6 : Initialiser l'affichage de la progression du jeu
+Ex5 : Initialiser l'affichage de la progression du jeu
 ---
 
 À l'aide de la méthode `html()` (http://api.jquery.com/html/) initialisez la progression du jeu grace aux valeurs des
 variables `$progress`, `cpt` et la longeur du tableau `xy`. Exemple d'affichage : `0/5 complete`.
 
-Ex7 : Mouvements du personnage
+Ex6 : Mouvements du personnage
 ---
 
-### Ex7.1
+### Ex6.1
 
 Écoutez l'événement jQuery `keyup`. Passez `e` en argument de la fonction de callback.
 
 
-### Ex7.2
+### Ex6.2
 
 En utilisant `e.keyCode`, `UP_KEY`, `RIGHT_KEY`, `DOWN_KEY`, `LEFT_KEY` et l'instruction `if` récupérez les événements
 déclanchés par les flèches du clavier. On utilisera les 2 lignes suivantes juste après l'instruction `if` :
@@ -83,29 +83,29 @@ e.preventDefault();
 $character.stop(true, true);
 ```
 
-### Ex7.3
+### Ex6.3
 
 À l'aide de la variable `$character` et de la méthode `position()` (http://api.jquery.com/position/), crééz 2 nouvelles
 variables `x` et `y` afin de stocker la position courrante du personnage sur les 2 axes au relachement d'une flèche du clavier.
 
-### Ex7.4
+### Ex6.4
 
 Pour la gestion des directions du personnage vous pouvez utiliser `e.keyCode`, `UP_KEY`, `RIGHT_KEY`, `DOWN_KEY`, `LEFT_KEY` et l'instruction `if`. Utilisez ensuite `$character`, `animate()` (http://api.jquery.com/animate/), `x`, `y`, `square_size` et `speed` pour déplacer le personnage dans la bonne direction.
 
-### Ex7.5
+### Ex6.5
 
 Modifiez les instructions `if` afin d'empêchez le personnage du sortir de la zone de jeu. `x`, `y`, `$stage`,
 `width()` (http://api.jquery.com/width/), `height()` (http://api.jquery.com/height/), `square_size`
 seront utilisés.
 
-Ex8 : Gestion des collisions
+Ex7 : Gestion des collisions
 ---
 
 __À cette étape, vous pouvez faire appel au professeur pour plus d'explications sur la méthode à utiliser.__
 
 Créez une fonction `is_collide` prenant en arguments `x` et `y` représentant les positions courantes du personnage sur les 2 axes. Cette fonction sera appelée à chaque déplacement du joueur. Elle déterminera si le personnage ramasse une potion. La progression sera mise à jour. L'élément `<div class="item-flask" id="..."></div>` correspondant sera supprimé du DOM.
 
-Ex9 : Fin du jeu
+Ex8 : Fin du jeu
 ---
 
 Manipulez l'événement `click` sur l'élément `<button class="restart">restart</button>`. Utilisez la méthode `reload()`
