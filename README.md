@@ -84,7 +84,7 @@ Ressources
 - [if...else](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/if...else)
 - [for](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/for)
 - [Tableaux](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Array)
-- [Objets](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Types_et_grammaire#littéraux objets)
+- [Objets](https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Types_et_grammaire#littéraux%20objets)
 - [Fonctions](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions)
 - [htmlreference.io](http://htmlreference.io/)
 - [cssreference.io](http://cssreference.io/)
