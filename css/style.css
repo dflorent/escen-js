@@ -1,0 +1,127 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 50px;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal {
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1050;
+}
+
+.modal.in {
+  display: block;
+}
+
+.modal-dialog {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.modal-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px;
+}
+
+.modal-title {
+  color: #21759b;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.modal-body {
+  padding: 15px;
+  position: relative;
+}
+
+.modal-close {
+  background: none;
+  border: 0;
+  color: #000;
+  cursor: pointer;
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: .2;
+  padding: 0;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.modal-backdrop {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1040;
+}
+
+.modal-open .modal-backdrop {
+  display: block;
+}
+
+a {
+  color: #21759b;
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+form {
+  display: flex;
+}
+
+form input {
+  flex: 1;
+  margin-right: 15px;
+}
+
+input {
+  border: 1px solid #e5e5e5;
+  font-size: 1em;
+  color: #999;
+  padding: 12px 8px;
+}
+
+::placholder {
+  color: #aaa;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px 24px;
+  text-align: center;
+}
